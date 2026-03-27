@@ -35,6 +35,8 @@
 
 更细的映射见 [docs/upstream-derivation-map.md](/Users/gdnpc-658/Documents/pmcodex/revenue/docs/upstream-derivation-map.md)。
 
+如果是会员 / 订阅业务，继续看 [docs/subscription-specialization-map.md](/Users/gdnpc-658/Documents/pmcodex/revenue/docs/subscription-specialization-map.md) 和 [docs/subscription-metrics-guardrails.md](/Users/gdnpc-658/Documents/pmcodex/revenue/docs/subscription-metrics-guardrails.md)。
+
 ## 技能矩阵
 
 1. `commercial-opportunity-canvas`
@@ -54,11 +56,31 @@
 8. `commercial-growth-strategy-workflow`
    从诊断到假设、评估、排序和路线图的完整商业增长工作流。
 
+## 会员 / 订阅专项技能
+
+这部分是在通用商业产品技能之上叠加的专项层，不替代现有 skills。
+
+1. `subscription-renewal-diagnostic`
+   专门诊断续费率、解约率、到期回流和不同国家 / SKU / 生命周期状态下的续费问题。
+2. `cancellation-save-strategy`
+   设计取消订阅拦截、降档、优惠挽回、暂停订阅和退出问卷策略。
+3. `expired-member-winback-playbook`
+   设计过期会员的短过期 / 长过期召回节奏、权益组合和实验方式。
+4. `payment-failure-recovery-playbook`
+   设计自动续费失败、支付方式失效和非自愿流失恢复链路。
+
+专项技能默认遵循两个规则：
+
+- 不把试用转付费和付费续费混成一个“续费率”
+- 不只给总盘结论，至少按地区、SKU、生命周期状态三维拆开
+
 ## Commands
 
 - `run-commercial-review`
 - `plan-commercial-roadmap`
 - `design-retention-plan`
+- `run-renewal-audit`
+- `plan-membership-lifecycle`
 
 ## 推荐使用方式
 
@@ -76,6 +98,12 @@
 ```
 
 如果是一个新方向而不是已有业务复盘，先从 `commercial-opportunity-canvas` 开始，再进入评估和路线图。
+
+如果是会员 / 订阅专项问题，推荐顺序是：
+
+1. `subscription-renewal-diagnostic`
+2. `cancellation-save-strategy` / `expired-member-winback-playbook` / `payment-failure-recovery-playbook`
+3. `commercial-prioritization-advisor`
 
 ## 来源说明
 
